@@ -8,7 +8,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Title Tag  -->
-    <title>Eshop - eCommerce HTML5 Template.</title>
+    <title>LABORATORIO</title>
 	<!-- Favicon -->
 	<link rel="icon" type="image/png" href="images/favicon.png">
 	<!-- Web Font -->
@@ -39,14 +39,10 @@
 	
 	<!-- Eshop StyleSheet -->
 	<link rel="stylesheet" href="{{asset('/css/reset.css')}}">
-	<link rel="stylesheet" href="{{asset('/style.css')}}">
+	<link rel="stylesheet" href="{{asset('/css/style.css')}}">
     <link rel="stylesheet" href="{{asset('/css/responsive.css')}}">
-
-	
-	
 </head>
 <body class="js">
-	
 	<!-- Preloader -->
 	<div class="preloader">
 		<div class="preloader-inner">
@@ -56,10 +52,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- End Preloader -->
 	
-	
-	<!-- Header -->
 	<header class="header shop">
 		<!-- Topbar -->
 		<div class="topbar">
@@ -69,8 +62,8 @@
 						<!-- Top Left -->
 						<div class="top-left">
 							<ul class="list-main">
-								<li><i class="ti-headphone-alt"></i> +060 (800) 801-582</li>
-								<li><i class="ti-email"></i> support@shophub.com</li>
+								<li><i class="ti-headphone-alt"></i> +591 69106866</li>
+								<li><i class="ti-email"></i> junior776444@gmail.com</li>
 							</ul>
 						</div>
 						<!--/ End Top Left -->
@@ -79,7 +72,7 @@
 						<!-- Top Right -->
 						<div class="right-content">
 							<ul class="list-main">
-								<li><i class="ti-location-pin"></i> Store location</li>
+								<li><i class="ti-location-pin"></i> </li>
 								<li><i class="ti-alarm-clock"></i> <a href="#">Daily deal</a></li>
 								<li><i class="ti-user"></i> <a href="#">My account</a></li>
 								<li><i class="ti-power-off"></i><a href="login.html#">Login</a></li>
