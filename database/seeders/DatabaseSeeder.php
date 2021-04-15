@@ -16,13 +16,83 @@ class DatabaseSeeder extends Seeder
     {
         DB::Table('productos')->insert([
             'Calificacion'=>'4.3',
-            'Categoria_Edad'=>'6 +',
+            'Categoria_Edad'=>'16 +',
             'Descripcion'=>'vitamidas infantiles',
             'Nacionalidad'=>'EEUU',
-            'Nombre'=>'Echinacea',
+            'Nombre'=>'Alfa369',
+            'Precio'=>'90',
+            'Stock'=>'100',
+            'Tipo'=>'suplemento'
+        ]);
+        DB::Table('productos')->insert([
+            'Calificacion'=>'5',
+            'Categoria_Edad'=>'16 +',
+            'Descripcion'=>'vitamidas infantiles',
+            'Nacionalidad'=>'EEUU',
+            'Nombre'=>'Omega 3',
+            'Precio'=>'90',
+            'Stock'=>'100',
+            'Tipo'=>'suplemento'
+        ]);
+        DB::Table('productos')->insert([
+            'Calificacion'=>'5',
+            'Categoria_Edad'=>'16 +',
+            'Descripcion'=>'vitamidas infantiles',
+            'Nacionalidad'=>'EEUU',
+            'Nombre'=>'Omega-3',
             'Precio'=>'150',
             'Stock'=>'100',
-            'Tipo'=>'caquita'
+            'Tipo'=>'suplemento'
+        ]);
+        DB::Table('productos')->insert([
+            'Calificacion'=>'5',
+            'Categoria_Edad'=>'16 +',
+            'Descripcion'=>'vitamidas infantiles',
+            'Nacionalidad'=>'EEUU',
+            'Nombre'=>'Evening Primrose Oil',
+            'Precio'=>'150',
+            'Stock'=>'100',
+            'Tipo'=>'suplemento'
+        ]);
+        DB::Table('productos')->insert([
+            'Calificacion'=>'5',
+            'Categoria_Edad'=>'16 +',
+            'Descripcion'=>'vitamidas infantiles',
+            'Nacionalidad'=>'EEUU',
+            'Nombre'=>'Vitamin C',
+            'Precio'=>'90',
+            'Stock'=>'100',
+            'Tipo'=>'suplemento'
+        ]);
+        DB::Table('productos')->insert([
+            'Calificacion'=>'5',
+            'Categoria_Edad'=>'16 +',
+            'Descripcion'=>'vitamidas infantiles',
+            'Nacionalidad'=>'EEUU',
+            'Nombre'=>'Gold C',
+            'Precio'=>'140',
+            'Stock'=>'100',
+            'Tipo'=>'suplemento'
+        ]);
+        DB::Table('productos')->insert([
+            'Calificacion'=>'5',
+            'Categoria_Edad'=>'16 +',
+            'Descripcion'=>'vitamidas infantiles',
+            'Nacionalidad'=>'EEUU',
+            'Nombre'=>'Vitamin D3',
+            'Precio'=>'90',
+            'Stock'=>'100',
+            'Tipo'=>'Suplemento'
+        ]);
+        DB::Table('productos')->insert([
+            'Calificacion'=>'5',
+            'Categoria_Edad'=>'16 +',
+            'Descripcion'=>'vitamidas infantiles',
+            'Nacionalidad'=>'EEUU',
+            'Nombre'=>'D3',
+            'Precio'=>'90',
+            'Stock'=>'210',
+            'Tipo'=>'suplemento'
         ]);
     }
 }
