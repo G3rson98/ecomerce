@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class DatabaseSeeder extends Seeder
 {
@@ -13,6 +14,15 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // \App\Models\User::factory(10)->create();
+        DB::Table('productos')->insert([
+            'Calificacion'=>'4.3',
+            'Categoria_Edad'=>'6 +',
+            'Descripcion'=>'vitamidas infantiles',
+            'Nacionalidad'=>'EEUU',
+            'Nombre'=>'Echinacea',
+            'Precio'=>'150',
+            'Stock'=>'100',
+            'Tipo'=>'caquita'
+        ]);
     }
 }
