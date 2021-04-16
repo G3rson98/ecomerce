@@ -22,7 +22,8 @@ class DatabaseSeeder extends Seeder
             'Nombre'=>'Alfa369',
             'Precio'=>'90',
             'Stock'=>'100',
-            'Tipo'=>'suplemento'
+            'Tipo'=>'suplemento',
+            'imagen'=>'images\productos\a.jpg'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -32,7 +33,8 @@ class DatabaseSeeder extends Seeder
             'Nombre'=>'Omega 3',
             'Precio'=>'90',
             'Stock'=>'100',
-            'Tipo'=>'suplemento'
+            'Tipo'=>'suplemento',
+            'imagen'=>'images\productos\b.jpg'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -42,7 +44,8 @@ class DatabaseSeeder extends Seeder
             'Nombre'=>'Omega-3',
             'Precio'=>'150',
             'Stock'=>'100',
-            'Tipo'=>'suplemento'
+            'Tipo'=>'suplemento',
+            'imagen'=>'images\productos\c.jpg'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -52,7 +55,8 @@ class DatabaseSeeder extends Seeder
             'Nombre'=>'Evening Primrose Oil',
             'Precio'=>'150',
             'Stock'=>'100',
-            'Tipo'=>'suplemento'
+            'Tipo'=>'suplemento',
+            'imagen'=>'images\productos\c.jpg'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -62,7 +66,8 @@ class DatabaseSeeder extends Seeder
             'Nombre'=>'Vitamin C',
             'Precio'=>'90',
             'Stock'=>'100',
-            'Tipo'=>'suplemento'
+            'Tipo'=>'suplemento',
+            'imagen'=>'images\productos\c.jpg'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -72,7 +77,8 @@ class DatabaseSeeder extends Seeder
             'Nombre'=>'Gold C',
             'Precio'=>'140',
             'Stock'=>'100',
-            'Tipo'=>'suplemento'
+            'Tipo'=>'suplemento',
+            'imagen'=>'images\productos\c.jpg'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -82,7 +88,8 @@ class DatabaseSeeder extends Seeder
             'Nombre'=>'Vitamin D3',
             'Precio'=>'90',
             'Stock'=>'100',
-            'Tipo'=>'Suplemento'
+            'Tipo'=>'Suplemento',
+            'imagen'=>'images\productos\c.jpg'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -92,7 +99,8 @@ class DatabaseSeeder extends Seeder
             'Nombre'=>'D3',
             'Precio'=>'90',
             'Stock'=>'210',
-            'Tipo'=>'suplemento'
+            'Tipo'=>'suplemento',
+            'imagen'=>'images\productos\c.jpg'
         ]);
     }
 }
