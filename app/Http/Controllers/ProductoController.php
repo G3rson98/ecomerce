@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\producto;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class ProductoController extends Controller
 {
@@ -14,7 +15,10 @@ class ProductoController extends Controller
      */
     public function index()
     {
-        //
+        $producto =producto::all();
+
+        // return $productos[1];
+        return view('welcome', compact('producto'));
     }
 
     /**

@@ -7,5 +7,16 @@ use Illuminate\Database\Eloquent\Model;
 
 class producto extends Model
 {
-    use HasFactory;
+    protected $primaryKey = 'id';
+    protected $fillable = [
+        'Calificacion',
+        'Categoria_Edad',
+        'Descripcion',
+        'Nacionalidad',
+        'Nombre',
+        'Precio',
+        'Stock',
+        'Tipo',
+        'imagen'
+    ];
 }

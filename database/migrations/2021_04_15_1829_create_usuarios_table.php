@@ -18,8 +18,7 @@ class CreateUsuariosTable extends Migration
             $table->string('Nombre',100);
             $table->string('Direccion',100);
             $table->string('Telefono',100);
-            $table->date('Fecha_Naciento',50);
-         
+            $table->date('Fecha_Naciento',50);        
         });
     }
 

@@ -23,8 +23,10 @@ class CreateProductosTable extends Migration
             $table->double('Precio',8,2);
             $table->double('Stock',8,2);
             $table->string('Tipo',50);
+            $table->string('imagen');
         });
     }
+
 
     /**
      * Reverse the migrations.

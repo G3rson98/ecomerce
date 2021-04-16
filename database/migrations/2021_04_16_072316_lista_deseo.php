@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateListaDeseosTable extends Migration
+class ListaDeseo extends Migration
 {
     /**
      * Run the migrations.
@@ -16,10 +16,10 @@ class CreateListaDeseosTable extends Migration
         Schema::create('lista__deseos', function (Blueprint $table) {
             $table->id();
             $table->double('Cantidad',8,2);
-            $table->unsignedBigInteger('idProducto');
-            $table->foreign('idProducto')->references('id')->on('productos');
-            $table->unsignedBigInteger('idUsuario');
-            $table->foreign('idUsuario')->references('id')->on('usuarios');
+            $table->unsignedBigInteger('idP');
+            $table->foreign('idP')->references('id')->on('productos');
+            $table->unsignedBigInteger('idU');
+            $table->foreign('idU')->references('id')->on('usuarios');
         });
     }
 
@@ -30,6 +30,6 @@ class CreateListaDeseosTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('lista__deseos');
+        //
     }
 }
