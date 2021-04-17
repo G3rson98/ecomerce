@@ -68,7 +68,7 @@
 					<div class="product-info">
 						
 						<!--/  zona del marco de compra-->
-						@include('layout.marco')
+						@include('layout.marcoBRASILERO')
 
 					</div>
 				</div>
