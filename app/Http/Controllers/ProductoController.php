@@ -20,7 +20,20 @@ class ProductoController extends Controller
         // return $productos[1];
         return view('welcome', compact('producto'));
     }
+    public function indexAMERICANO()
+    {
+        $productoA =producto::where('Nacionalidad', '=','EEUU')->get();
+        
 
+        
+        return view('producto_Americano', compact('productoA'));
+    }
+    public function indexBRASILERO()
+    {
+        $productoB=producto::where('Nacionalidad', '=','brasilero')->get();
+    
+        return view('producto_brasileros', compact('productoB'));
+    }
     /**
      * Show the form for creating a new resource.
      *

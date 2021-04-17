@@ -79,7 +79,7 @@
 							</ul>
 						</div>
 						<!--/  zona del marco de compra-->
-						@include('layout.marco')
+						@include('layout.marcoHOME')
 
 					</div>
 				</div>
