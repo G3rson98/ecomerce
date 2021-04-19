@@ -9,8 +9,8 @@
                     <div class="single-product">
                         <div class="product-img">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{$productoBs->imagen}}" alt="#">
-                                <img class="hover-img" src="{{$productoBs->imagen}}" alt="#">
+                                <img class="default-img" src="https://farmaciauniversal.com/assets/sources/05043-vitamina-b12.jpg" alt="#">
+                                <img class="hover-img" src="https://terbol.com.bo/wp-content/uploads/2020/03/vitamina-c-500mg-1.jpg" alt="#">
                             </a>
                             <div class="button-head">
                                 <div class="product-action">
@@ -23,7 +23,7 @@
                             </div>
                         </div>
                         <div class="product-content">
-                            <h3><a href="product-details.html">{{$productoBs->Nombre}}</a></h3>
+                            <h3><a href="product-details.html">{{$productoBs->Descripcion}}</a></h3>
                             <div class="product-price">
                                 <span> Bs. {{$productoBs->Precio}}</span>
                             </div>

@@ -17,13 +17,13 @@ class CreateProductosTable extends Migration
             $table->id();
             $table->double('Calificacion',8,2);
             $table->string('Categoria_Edad');
-            $table->string('Descripcion',200);
+            $table->longText('Descripcion');
             $table->string('Nacionalidad',50);
             $table->string('Nombre',70);
             $table->double('Precio',8,2);
             $table->double('Stock',8,2);
             $table->string('Tipo',50);
-            $table->string('imagen');
+            $table->string('imagen')->nullable();
         });
     }
 

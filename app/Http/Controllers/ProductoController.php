@@ -30,7 +30,7 @@ class ProductoController extends Controller
     }
     public function indexBRASILERO()
     {
-        $productoB=producto::where('Nacionalidad', '=','brasilero')->get();
+        $productoB=producto::where('Nacionalidad', '=','brasil')->get();
     
         return view('producto_brasileros', compact('productoB'));
     }
