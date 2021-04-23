@@ -98,7 +98,7 @@
 						<!-- Single Widget -->
 						<div class="single-footer about">
 							<div class="logo">
-								<a href="index.html"><img src="images/icono.png" alt="#"></a>
+								<img src="images/icono.png" alt="#">
 							</div>
 							<p class="text"></p>
 							<p class="call">LLAMANOS: <span><a href="">+591 62111467</a></span></p>
@@ -109,8 +109,8 @@
 							<!-- Single Widget -->
 							<!-- End Single Widget -->
 							<ul>
-								<li><a target="_blank"href="https://www.facebook.com/Vitalbox-108008618093454"><i class="ti-facebook"></i></a></li>
-								<li><a target="_blank" href="https://instagram.com/vitalbox.bo?igshid=1or7v79iru3vi"><i class="ti-instagram"></i></a></li>
+								<li><a target="_blank"href="https://www.facebook.com/Vitalbox-108008618093454"><i class="ti-facebook"></i> FACEBOOK</a></li>
+								<li><a target="_blank" href="https://instagram.com/vitalbox.bo?igshid=1or7v79iru3vi"><i class="ti-instagram"></i> INSTAGRAM</a></li>
 							</ul>
 						</div>
 
