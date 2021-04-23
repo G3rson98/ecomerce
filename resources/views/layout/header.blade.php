@@ -7,24 +7,11 @@
 						<div class="col-lg-3">
 							<div class="all-category">
 								<h3 class="cat-heading"><i class="fa fa-bars" aria-hidden="true"></i>CATEGORIAS</h3>
-								<ul class="main-category">
-									<li><a href="#">Nuevos Producto<i class="fa fa-angle-right" aria-hidden="true"></i></a>
-										<ul class="sub-category">
-											<li><a href="#">accessories</a></li>
-											<li><a href="#">best selling</a></li>
-											<li><a href="#">top 100 offer</a></li>
-											<li><a href="#">sunglass</a></li>
-											<li><a href="#">watch</a></li>
-											<li><a href="#">man’s product</a></li>
-											<li><a href="#">ladies</a></li>
-											<li><a href="#">westrn dress</a></li>
-											<li><a href="#">denim </a></li>
-										</ul>
+								<ul class="main-category">				
 									</li>
-									<li><a href="#">Equipos</a></li>
-									<li><a href="#">Top 10</a></li>
 									<li><a href="#">Productos Hombres</a></li>
 									<li><a href="#">Productos Mujer</a></li>
+
 								</ul>
 							</div>
 						</div>
@@ -35,10 +22,10 @@
 									<div class="navbar-collapse">
 										<div class="nav-inner">
 											<ul class="nav main-menu menu navbar-nav">
-												<li href="#"><a href="#">Pagina Inicio</a></li>
-												<li><a href="#">Productos Brasileros</a></li>
-												<li><a href="#">Productos Americanos</a></li>
-												<li><a href="#">Contáctos</a></li>
+												<li href="#"><a href="{{Route('/')}}">Pagina Inicio</a></li> <hr>
+												<li><a href="{{Route('brasilero')}}">Productos Brasileros</a></li> <hr>
+												<li><a href="{{Route('americano')}}">Productos Americanos</a></li> <hr>
+												<li><a href="https://wa.me/message/DRYU2YQ775JDP1">Contáctos</a></li> <hr>
 											</ul>
 										</div>
 									</div>

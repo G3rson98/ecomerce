@@ -48,7 +48,7 @@
 
 <body class="js">
 <header class="header shop">
-		@include('layout.topbar')
+
 		@include('layout.carrito')
 		<!-- aqui termina la parte del carrito , cuenta y lista de deseo-->
 		@include('layout.header')

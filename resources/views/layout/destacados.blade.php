@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="section-title">
-						<h2>Hot Item</h2>
+						<h2>DESTACADOS</h2>
 					</div>
 				</div>
 			</div>
@@ -15,26 +15,25 @@
 						<div class="single-product">
 							<div class="product-img">
 								<a href="product-details.html">
-									<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-									<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+									<img class="default-img" src="images\MEGA 3.6.9.jpg" alt="#">
+									<!-- <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#"> -->
 									<span class="out-of-stock">Hot</span>
 								</a>
 								<div class="button-head">
 									<div class="product-action">
-										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-										<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-										<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>CARACTERISTICAS</span></a>
+										
 									</div>
 									<div class="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
+										<a title="Add to cart" href="#">COMPRAR</a>
 									</div>
 								</div>
 							</div>
 							<div class="product-content">
-								<h3><a href="product-details.html">Black Sunglass For Women</a></h3>
+								<h3><a href="product-details.html">Mega 3.6.9</a></h3>
 								<div class="product-price">
-									<span class="old">$60.00</span>
-									<span>$50.00</span>
+									<span class="old"></span>
+									<span>BS 110</span>
 								</div>
 							</div>
 						</div>
@@ -43,24 +42,23 @@
 						<div class="single-product">
 							<div class="product-img">
 								<a href="product-details.html">
-									<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-									<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+									<img class="default-img" src="images\OMEGA_ULTRA_HD.jpg" alt="#">
+									<!-- <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#"> -->
 								</a>
 								<div class="button-head">
 									<div class="product-action">
-										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-										<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-										<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>CARACTERISTICAS</span></a>
+									
 									</div>
 									<div class="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
+										<a title="Add to cart" href="#">COMPRAR</a>
 									</div>
 								</div>
 							</div>
 							<div class="product-content">
-								<h3><a href="product-details.html">Women Hot Collection</a></h3>
+								<h3><a href="product-details.html">Melcoprol Omega Ultra HD</a></h3>
 								<div class="product-price">
-									<span>$50.00</span>
+									<span>Bs 110</span>
 								</div>
 							</div>
 						</div>
@@ -69,25 +67,24 @@
 						<div class="single-product">
 							<div class="product-img">
 								<a href="product-details.html">
-									<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-									<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
-									<span class="new">New</span>
+									<img class="default-img" src="images\Melcoprol_Zinco_suplemento_alimenticio.jpg" alt="#">
+									<!-- <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#"> -->
+								
 								</a>
 								<div class="button-head">
 									<div class="product-action">
-										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-										<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-										<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>CARACTERISTICA</span></a>
+										
 									</div>
 									<div class="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
+										<a title="Add to cart" href="#">COMPRAR</a>
 									</div>
 								</div>
 							</div>
 							<div class="product-content">
-								<h3><a href="product-details.html">Awesome Pink Show</a></h3>
+								<h3><a href="product-details.html">Melcoprol Zinco suplemento alimenticio</a></h3>
 								<div class="product-price">
-									<span>$50.00</span>
+									<span>Bs 100</span>
 								</div>
 							</div>
 						</div>
@@ -96,24 +93,23 @@
 						<div class="single-product">
 							<div class="product-img">
 								<a href="product-details.html">
-									<img class="default-img" src="https://via.placeholder.com/550x750" alt="#">
-									<img class="hover-img" src="https://via.placeholder.com/550x750" alt="#">
+									<img class="default-img" src="images\Melcoprol_Imuno_Prevent.jpg" alt="#">
+									<!-- <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#"> -->
 								</a>
 								<div class="button-head">
 									<div class="product-action">
-										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Quick Shop</span></a>
-										<a title="Wishlist" href="#"><i class=" ti-heart "></i><span>Add to Wishlist</span></a>
-										<a title="Compare" href="#"><i class="ti-bar-chart-alt"></i><span>Add to Compare</span></a>
+										<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>CARACTERISTICAS</span></a>
+
 									</div>
 									<div class="product-action-2">
-										<a title="Add to cart" href="#">Add to cart</a>
+										<a title="Add to cart" href="#">COMPRAR</a>
 									</div>
 								</div>
 							</div>
 							<div class="product-content">
-								<h3><a href="product-details.html">Awesome Bags Collection</a></h3>
+								<h3><a href="product-details.html">Melcoprol Imuno Prevent</a></h3>
 								<div class="product-price">
-									<span>$50.00</span>
+									<span>Bs 80</span>
 								</div>
 							</div>
 						</div>

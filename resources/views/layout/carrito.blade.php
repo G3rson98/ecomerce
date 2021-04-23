@@ -4,7 +4,7 @@
 					<div class="col-lg-2 col-md-2 col-12">
 						<!-- Logo -->
 						<div class="logo">
-							<a href="index.html"><img src="images/logo.png" alt="logo"></a>
+							<a href="{{Route('/')}}"><img src="images/icono.png" alt="logo"></a>
 						</div>
 						<!--/ End Logo -->
 						<!-- Search Form -->
@@ -25,12 +25,6 @@
 					<div class="col-lg-8 col-md-7 col-12">
 						<div class="search-bar-top">
 							<div class="search-bar">
-								<select>
-									<option selected="">Categorias :</option>
-									<option>watch</option>
-									<option>mobile</option>
-									<option>kid’s item</option>
-								</select>
 								<form>
 									<input name="search" placeholder="Busca Tu Producto Aquí....." type="search">
 									<button class="btnn"><i class="ti-search"></i></button>
@@ -42,17 +36,17 @@
 					<div class="col-lg-2 col-md-3 col-12">
 						<div class="right-bar">
 							<!-- Search Form -->
-							<div class="sinlge-bar">
+							<!-- <div class="sinlge-bar">
 								<a href="#" class="single-icon"><i class="fa fa-heart-o" aria-hidden="true"></i></a>
-							</div>
-							<div class="sinlge-bar">
+							</div> -->
+							<!-- <div class="sinlge-bar">
 								<a href="#" class="single-icon"><i class="fa fa-user-circle-o" aria-hidden="true"></i></a>
-							</div>
-							<div class="sinlge-bar shopping">
-								<a href="#" class="single-icon"><i class="ti-bag"></i> <span class="total-count">5</span></a>
+							</div> -->
+							<!-- <div class="sinlge-bar shopping"> -->
+								<!-- <a href="#" class="single-icon"><i class="ti-bag"></i> <span class="total-count">5</span></a> -->
 								<!-- Shopping Item -->
-								<div class="shopping-item">
-									<div class="dropdown-cart-header">
+								<!-- <div class="shopping-item"> -->
+									<!-- <div class="dropdown-cart-header">
 										<span>2 Items</span>
 										<a href="#">View Cart</a>
 									</div>
@@ -76,7 +70,7 @@
 											<span class="total-amount">$134.00</span>
 										</div>
 										<a href="checkout.html" class="btn animate">Checkout</a>
-									</div>
+									</div> -->
 								</div>
 								<!--/ End Shopping Item -->
 							</div>
