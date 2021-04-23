@@ -47,7 +47,6 @@
 <body class="js">
 	@include('layout.preloader')
 	<header class="header shop">
-		@include('layout.topbar')
 		@include('layout.carrito')
 		<!-- aqui termina la parte del carrito , cuenta y lista de deseo-->
 		@include('layout.header')
@@ -56,13 +55,12 @@
 	<!--/ End Header -->
 	<!-- Start Product Area -->
 	<div class="product-area section">
+	@include('layout.destacados')
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
 					<div class="section-title">
-					
 						<h2>NUESTRO PRODUCTOS </h2>
-					
 					</div>
 				</div>
 			</div>
@@ -80,18 +78,16 @@
 						</div>
 						<!--/  zona del marco de compra-->
 						@include('layout.marcoHOME')
-
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	@include('layout.mediumbanner')
+
 	<!-- Start Most Popular -->
-	@include('layout.destacados')
+
 	<!-- End Most Popular Area -->
 	<!-- Modal end -->
-
 	<!-- Start Footer Area -->
 	<footer class="footer">
 		<!-- Footer Top -->
@@ -102,26 +98,22 @@
 						<!-- Single Widget -->
 						<div class="single-footer about">
 							<div class="logo">
-								<a href="index.html"><img src="images/logo2.png" alt="#"></a>
+								<img src="images/icono.png" alt="#">
 							</div>
 							<p class="text"></p>
-							<p class="call">LLAMANOS: <span><a href="tel:123456789">+NUESTRO NUMERO</a></span></p>
-							<p class="call">CORREO: <span><a href="tel:123456789">+NUESTRO CORREO</a></span></p>
-						</div>
-						<!-- End Single Widget -->
-					</div>
-					<div class="col-lg-3 col-md-6 col-12">
-						<!-- Single Widget -->
-						<div class="single-footer social">
+							<p class="call">LLAMANOS: <span><a href="">+591 62111467</a></span></p>
+							<p class="call">CORREO: <span><a href=""> vitalbox3@gmail.com</a></span></p>
+							<p class="call">NUESTRAS PAGINAS:</p>
+							<div class="single-footer social">
 							<h4></h4>
 							<!-- Single Widget -->
 							<!-- End Single Widget -->
 							<ul>
-								<li><a href="#"><i class="ti-facebook"></i></a></li>
-								<li><a href="#"><i class="ti-twitter"></i></a></li>
-								<li><a href="#"><i class="ti-flickr"></i></a></li>
-								<li><a href="#"><i class="ti-instagram"></i></a></li>
+								<li><a target="_blank"href="https://www.facebook.com/Vitalbox-108008618093454"><i class="ti-facebook"></i> FACEBOOK</a></li>
+								<li><a target="_blank" href="https://instagram.com/vitalbox.bo?igshid=1or7v79iru3vi"><i class="ti-instagram"></i> INSTAGRAM</a></li>
 							</ul>
+						</div>
+
 						</div>
 						<!-- End Single Widget -->
 					</div>
@@ -129,10 +121,8 @@
 			</div>
 		</div>
 		<!-- End Footer Top -->
-
 	</footer>
 	<!-- /End Footer Area -->
-
 	<!-- Jquery -->
 	<script src="{{asset('/js/jquery.min.js')}}"></script>
 	<script src="{{asset('js/jquery-migrate-3.0.0.js')}}"></script>

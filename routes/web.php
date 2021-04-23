@@ -15,6 +15,6 @@ use App\Http\Controllers\ProductoController;
 */
 
 
-Route::get('/', [ProductoController::class, 'index']);
-Route::get('/americano', [ProductoController::class, 'indexAMERICANO']);
-Route::get('/brasilero', [ProductoController::class, 'indexBRASILERO']);
+Route::get('/', [ProductoController::class, 'index'])->name('/');
+Route::get('/americano', [ProductoController::class, 'indexAMERICANO'])->name('americano');
+Route::get('/brasilero', [ProductoController::class, 'indexBRASILERO'])->name('brasilero');
