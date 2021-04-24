@@ -23,7 +23,9 @@ class CreateProductosTable extends Migration
             $table->double('Precio',8,2);
             $table->double('Stock',8,2);
             $table->string('Tipo',50);
-            $table->string('imagen')->nullable();
+            $table->string('Imagen')->nullable();
+            $table->string('Imagen2')->nullable();
+            $table->string('Imagen3')->nullable();
         });
     }
 
