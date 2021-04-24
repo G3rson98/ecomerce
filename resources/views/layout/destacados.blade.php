@@ -15,7 +15,7 @@
 					<div class="single-product">
 						<div class="product-img">
 							<a href="product-details.html">
-								<img class="default-img" src="images\MEGA 3.6.9.jpg" alt="#">
+								<img class="default-img" src="images\productos\MEGA 3.6.9.jpg" alt="#">
 								<!-- <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#"> -->
 								<span class="out-of-stock">Hot</span>
 							</a>
@@ -42,7 +42,7 @@
 					<div class="single-product">
 						<div class="product-img">
 							<a href="product-details.html">
-								<img class="default-img" src="images\OMEGA_ULTRA_HD.jpg" alt="#">
+								<img class="default-img" src="images\productos\OMEGA_ULTRA_HD.jpg" alt="#">
 								<!-- <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#"> -->
 							</a>
 							<div class="button-head">
@@ -67,7 +67,7 @@
 					<div class="single-product">
 						<div class="product-img">
 							<a href="product-details.html">
-								<img class="default-img" src="images\Melcoprol_Zinco_suplemento_alimenticio.jpg" alt="#">
+								<img class="default-img" src="images\productos\Melcoprol_Zinco_suplemento_alimenticio.jpg" alt="#">
 								<!-- <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#"> -->
 
 							</a>
@@ -93,7 +93,7 @@
 					<div class="single-product">
 						<div class="product-img">
 							<a href="product-details.html">
-								<img class="default-img" src="images\Melcoprol_Imuno_Prevent.jpg" alt="#">
+								<img class="default-img" src="images\productos\Melcoprol_Imuno_Prevent.jpg" alt="#">
 								<!-- <img class="hover-img" src="https://via.placeholder.com/550x750" alt="#"> -->
 							</a>
 							<div class="button-head">

@@ -34,6 +34,23 @@ class ProductoController extends Controller
     
         return view('producto_brasileros', compact('productoB'));
     }
+    public function indexN()
+    {
+        $productoN=producto::where('Categoria_Edad','=','niño')->get();
+           // return $productoN;
+        return view('producto_N', compact('productoN'));
+    }
+    public function indexH()
+    {
+        $productoH=producto::where('Categoria_Edad','=','adultos')->get();
+       
+        return view('producto_Hombre', compact('productoH'));
+    }
+    public function indexM()
+    {
+        $productoM=producto::where('Categoria_Edad','=','Mujer')->get();
+        return view('producto_Mujer', compact('productoM'));
+    }
     /**
      * Show the form for creating a new resource.
      *
@@ -88,7 +105,6 @@ class ProductoController extends Controller
     {
         //
     }
-
     /**
      * Remove the specified resource from storage.
      *
