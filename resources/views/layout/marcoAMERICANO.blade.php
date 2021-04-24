@@ -9,8 +9,12 @@
                     <div class="single-product">
                         <div class="product-img">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{$productoAs->imagen}}" alt="#">
-                                <img class="hover-img" src="{{$productoAs->imagen}}" alt="#">
+                                <img class="default-img" src="{{'images/productos/'.$productoAs->Imagen}}" alt="#">
+                            @if ($productoAs->Imagen2 === null)
+                            
+                            @else
+                                <img class="hover-img" src="{{'images/productos/'.$productoAs->Imagen2}}" alt="#">
+                            @endif
                             </a>
                             <div class="button-head">
                                 <div class="product-action">
@@ -19,6 +23,8 @@
                                 </div>
                                 <div class="product-action-2">
                                     <a title="COMPRAR" href="#">Comprar</a>
+                                    
+                                    <a title="DESCRIPCION" href="#">| Descripcion</a>
                                 </div>
                             </div>
                         </div>
