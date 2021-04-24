@@ -9,8 +9,9 @@
 								<h3 class="cat-heading"><i class="fa fa-bars" aria-hidden="true"></i>CATEGORIAS</h3>
 								<ul class="main-category">
 									</li>
-									<li><a href="#">Productos Hombres</a></li>
-									<li><a href="#">Productos Mujer</a></li>
+									<li><a href="{{Route('H')}}">Productos Hombres</a></li>
+									<li><a href="{{Route('M')}}">Productos Mujer</a></li>
+									<li><a href="{{Route('N')}}">Productos Niño</a></li>
 
 								</ul>
 							</div>
@@ -31,7 +32,7 @@
 												<li><a href="https://wa.me/message/DRYU2YQ775JDP1">Contáctos</a></li>
 												<hr>
 												<li><a target="_blank"href="https://www.facebook.com/Vitalbox-108008618093454"><i class="ti-facebook"></i> Facebook</a></li> <hr>
-								                 <li><a target="_blank" href="https://instagram.com/vitalbox.bo?igshid=1or7v79iru3vi"><i class="ti-instagram"></i> Instagram</a></li><hr>
+								                  <li><a target="_blank" href="https://instagram.com/vitalbox.bo?igshid=1or7v79iru3vi"><i class="ti-instagram"></i> Instagram</a></li><hr>
 										</div>
 									</div>
 								</nav>
