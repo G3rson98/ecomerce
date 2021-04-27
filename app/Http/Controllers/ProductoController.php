@@ -16,36 +16,39 @@ class ProductoController extends Controller
     public function index()
     {
         $producto =producto::all();
-
         // return $productos[1];
-        return view('welcome', compact('producto'));
+        return view('marco_home', compact('producto'));
     }
+
+
     public function indexAMERICANO()
     {
         $productoA =producto::where('Nacionalidad', '=','EEUU')->get();
-        
-
-        
-        return view('producto_Americano', compact('productoA'));
+        return view('marco_americano', compact('productoA'));
     }
+
+
     public function indexBRASILERO()
     {
         $productoB=producto::where('Nacionalidad', '=','brasil')->get();
-    
-        return view('producto_brasileros', compact('productoB'));
+        return view('marco_brasilero', compact('productoB'));
     }
+
+
     public function indexN()
     {
         $productoN=producto::where('Categoria_Edad','=','niño')->get();
-           // return $productoN;
-        return view('producto_N', compact('productoN'));
+        return view('marco_niño', compact('productoN'));
     }
+
+
     public function indexH()
     {
         $productoH=producto::where('Categoria_Edad','=','adultos')->get();
-       
-        return view('producto_Hombre', compact('productoH'));
+        return view('marco_hombre', compact('productoH'));
     }
+
+
     public function indexM()
     {
         $productoM=producto::where('Categoria_Edad','=','Mujer')->get();
