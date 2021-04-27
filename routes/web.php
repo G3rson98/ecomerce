@@ -26,3 +26,6 @@ Route::get('/product_N', [ProductoController::class, 'indexN'])->name('N');
 Route::get('/product_H', [ProductoController::class, 'indexH'])->name('H');
 
 Route::get('/product_M', [ProductoController::class, 'indexM'])->name('M');
+
+
+Route::get('/producto/{id}', [ProductoController::class, 'show'])->name('descripcion');

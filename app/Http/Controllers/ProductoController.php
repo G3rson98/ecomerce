@@ -81,9 +81,10 @@ class ProductoController extends Controller
      * @param  \App\Models\producto  $producto
      * @return \Illuminate\Http\Response
      */
-    public function show(producto $producto)
+    public function show($id)
     {
-        //
+        $productoA =producto::where('id', '=',$id)->first();
+        return $productoA;
     }
 
     /**

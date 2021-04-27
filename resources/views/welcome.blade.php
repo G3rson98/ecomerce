@@ -155,8 +155,32 @@
 	<script src="{{asset('/js/easing.js')}}"></script>
 	<!-- Active JS -->
 	<script src="{{asset('/js/active.js')}}"></script>
-
+	<!-- sweet alert -->
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+	@yield('javascript')
+
+	<script>
+    function descripcion(a) {
+        var producto = JSON.parse(a);
+        //alert(producto.id);
+        Swal.fire({
+            title: '<strong>'+producto.Nombre+'</strong>',
+            icon: 'info',
+            html: '<p><small><b>Descripcion: </b>'+producto.Descripcion+'</small></p>'+'<br>'+
+                '<p><small><b>Recomendado para: </b>'+producto.Categoria_Edad+'</small></p>'
+            ,
+            showCloseButton: false,
+            showCancelButton: false,
+            focusConfirm: false,
+            confirmButtonText: '<i class="fa fa-thumbs-up"></i> OK!',
+            confirmButtonAriaLabel: 'Thumbs up, great!',
+            cancelButtonText: '<i class="fa fa-thumbs-down"></i>',
+            cancelButtonAriaLabel: 'Thumbs down'
+        });
+
+    }
+</script>
 </body>
 
 </html>

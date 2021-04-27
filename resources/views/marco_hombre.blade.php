@@ -25,6 +25,7 @@
                                     </div>
                                     <div class="product-action-2">
                                         <a title="COMPRAR" href="#">Comprar</a>
+                                        <a onclick="descripcion('{{$productoHs}}')" title="DESCRIPCION">| Descripcion</a>
                                     </div>
                                 </div>
                             </div>
