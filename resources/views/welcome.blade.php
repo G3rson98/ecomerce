@@ -55,29 +55,29 @@
 	<!--/ End Header -->
 	<!-- Start Product Area -->
 	<div class="product-area section">
-	@include('layout.destacados')
+		@yield('destacados')
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
 					<div class="section-title">
-						<h2>NUESTRO PRODUCTOS </h2>
+						<h2>@yield('titulo')</h2>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-12">
 					<div class="product-info">
-						<div class="nav-main">
+						<!-- <div class="nav-main"> -->
 							<!-- Tab Nav -->
-							<ul class="nav nav-tabs" id="myTab" role="tablist">
-								<li class="nav-item"><a class="nav-link " data-toggle="tab" href="#man" role="tab">Hombre</a></li>
+							<!-- <ul class="nav nav-tabs" id="myTab" role="tablist"> -->
+								<!-- <li class="nav-item"><a class="nav-link " data-toggle="tab" href="#man" role="tab">Hombre</a></li>
 								<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#women" role="tab">Mujer</a></li>
 								<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#kids" role="tab">Niños</a></li>
-								<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#accessories" role="tab">Dispositivos Medicos</a></li>
-							</ul>
-						</div>
+								<li class="nav-item"><a class="nav-link" data-toggle="tab" href="#accessories" role="tab">Dispositivos Medicos</a></li> -->
+							<!-- </ul> -->
+						<!-- </div> -->
 						<!--/  zona del marco de compra-->
-						@include('layout.marcoHOME')
+						@yield('contenido')
 					</div>
 				</div>
 			</div>
@@ -155,6 +155,8 @@
 	<script src="{{asset('/js/easing.js')}}"></script>
 	<!-- Active JS -->
 	<script src="{{asset('/js/active.js')}}"></script>
+
+	<script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
 </body>
 
 </html>
