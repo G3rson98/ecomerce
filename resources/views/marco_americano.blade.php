@@ -15,11 +15,10 @@
                     <div class="single-product">
                         <div class="product-img">
                             <a href="product-details.html">
-                                <img class="default-img" src="{{'images/productos/'.$productoAs->Imagen}}" alt="#">
+                                <img class="default-img" src="{{$productoAs->Imagen}}" alt="#">
                                 @if ($productoAs->Imagen2 === null)
-
                                 @else
-                                <img class="hover-img" src="{{'images/productos/'.$productoAs->Imagen2}}" alt="#">
+                                <img class="hover-img" src="{{$productoAs->Imagen2}}" alt="#">
                                 @endif
                             </a>
                             <div class="button-head">

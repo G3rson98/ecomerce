@@ -16,7 +16,7 @@ class ProductoController extends Controller
     public function index()
     {
         $producto =producto::all();
-        // return $productos[1];
+        
         return view('marco_home', compact('producto'));
     }
 
@@ -30,7 +30,7 @@ class ProductoController extends Controller
 
     public function indexBRASILERO()
     {
-        $productoB=producto::where('Nacionalidad', '=','brasil')->get();
+        $productoB=producto::where('Nacionalidad', '=','Brasil')->get();
         return view('marco_brasilero', compact('productoB'));
     }
 

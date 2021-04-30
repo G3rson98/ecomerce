@@ -1,13 +1,12 @@
 @extends('welcome')
 
 @section('destacados')
-    @include('layout.destacados')
+@include('layout.destacados')
 @endsection
 
-@section('titulo','NUESTRO PRODUCTOS')
+@section('titulo','NUESTROS PRODUCTOS')
 
 @section('contenido')
-
     <div class="tab-content" id="myTabContent">
         <!-- Start Single Tab -->
         <div class="tab-pane fade show active" id="man" role="tabpanel">
@@ -19,7 +18,7 @@
                             <div class="product-img">
                                 <a href="product-details.html">
                                     <img class="default-img" src="{{$productos->imagen}}" alt="#">
-                                    <img class="hover-img" src="{{$productos->imagen}}" alt="#">
+                                    <img class="hover-img" src="{{$productos->imagen2}}" alt="#">
                                 </a>
                                 <div class="button-head">
                                     <div class="product-action">
