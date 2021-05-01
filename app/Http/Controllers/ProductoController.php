@@ -16,14 +16,15 @@ class ProductoController extends Controller
     public function index()
     {
         $producto =producto::all();
-        
-        return view('marco_home', compact('producto'));
+   
+    return view('marco_home', compact('producto'));
     }
 
 
     public function indexAMERICANO()
     {
         $productoA =producto::where('Nacionalidad', '=','EEUU')->get();
+       // return $productoA;
         return view('marco_americano', compact('productoA'));
     }
 
