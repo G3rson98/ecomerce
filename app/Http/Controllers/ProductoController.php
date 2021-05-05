@@ -65,7 +65,7 @@ class ProductoController extends Controller
     public function indexM()
     {
         $productoM = producto::where('rango', '=', 'mujer')->get();
-        return view('producto_Mujer', compact('productoM'));
+        return view('marco_mujer', compact('productoM'));
     }
     /**
      * Show the form for creating a new resource.
