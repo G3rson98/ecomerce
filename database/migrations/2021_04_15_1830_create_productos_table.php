@@ -26,6 +26,7 @@ class CreateProductosTable extends Migration
             $table->string('Imagen')->nullable();
             $table->string('Imagen2')->nullable();
             $table->string('Imagen3')->nullable();
+            $table->string('rango',70)->nullable();
         });
     }
 

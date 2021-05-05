@@ -13,10 +13,13 @@
                     <div class="col-xl-3 col-lg-4 col-md-4 col-12">
                         <div class="single-product">
                             <div class="product-img">
-                                <a href="product-details.html">
-                                    <img class="default-img" src="{{$productoNs->imagen}}" alt="#">
-                                    <img class="hover-img" src="{{$productoNs->imagen}}" alt="#">
-                                </a>
+                            <a>
+                                <img class="default-img" src="images\one\{{$productoNs->Imagen}}">
+                                @if ($productoNs->Imagen2 === null)
+                                @else
+                                <img class="hover-img" src="images\one\{{$productoNs->Imagen2}}">
+                                @endif
+                            </a>
                                 <div class="button-head">
                                     <div class="product-action">
                                         <a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>Caracteristicas</span></a>

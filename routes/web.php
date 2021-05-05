@@ -24,8 +24,7 @@ Route::get('/brasilero', [ProductoController::class, 'indexBRASILERO'])->name('b
 Route::get('/product_N', [ProductoController::class, 'indexN'])->name('N');
 ////vista producto hombre
 Route::get('/product_H', [ProductoController::class, 'indexH'])->name('H');
-
 Route::get('/product_M', [ProductoController::class, 'indexM'])->name('M');
-
-
 Route::get('/producto/{id}', [ProductoController::class, 'show'])->name('descripcion');
+//buscador
+Route::POST('/buscar', [ProductoController::class, 'indexbuscar'])->name('buscar');

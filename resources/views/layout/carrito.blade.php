@@ -12,8 +12,9 @@
 							<div class="top-search"><a href="#0"><i class="ti-search"></i></a></div>
 							<!-- Search Form -->
 							<div class="search-top">
-								<form class="search-form">
-									<input type="text" placeholder="Search here..." name="search">
+								<form method="POST" rol="form" action="{{Route('buscar')}}" class="search-form">
+								@csrf
+									<input   type="text" placeholder="BUSCAR VITAMINA..." name="search">
 									<button value="search" type="submit"><i class="ti-search"></i></button>
 								</form>
 							</div>
@@ -25,8 +26,9 @@
 					<div class="col-lg-8 col-md-7 col-12">
 						<div class="search-bar-top">
 							<div class="search-bar">
-								<form>
-									<input name="search" placeholder="Busca Tu Producto Aquí....." type="search">
+								<form method="POST" rol="form"  action="{{Route('buscar')}}" >
+								@csrf
+									<input action="{{Route('buscar')}}" name="search" placeholder="Busca Tu Producto Aquí....." type="search">
 									<button class="btnn"><i class="ti-search"></i></button>
 								</form>
 							</div>

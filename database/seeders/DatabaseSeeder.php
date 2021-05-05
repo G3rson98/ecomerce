@@ -23,8 +23,9 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'90',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Alfa_Omega_369.png',
-            'Imagen2'=>'one\Alfa_Omega_369_1.png'
+            'Imagen'=>'Alfa_Omega_369.png',
+            'Imagen2'=>'Alfa_Omega_369_1.png',
+            'Imagen2'=>'Alfa_Omega_369_1.png'
         ]);
         // DB::Table('productos')->insert([
         //     'Calificacion'=>'5',
@@ -45,8 +46,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'150',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Gold_Omega_3.png',
-            'Imagen2'=>'images\one\Gold_Omega_3_1.png'
+            'Imagen'=>'Gold_Omega_3.png',
+            'Imagen2'=>'Gold_Omega_3_1.png'
         ]);
         // DB::Table('productos')->insert([
         //     'Calificacion'=>'5',
@@ -67,8 +68,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'100',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Alfa_Vitamin_C.png',
-            'Imagen2'=>'images\one\Alfa_Vitamin_C_1.png'
+            'Imagen'=>'Alfa_Vitamin_C.png',
+            'Imagen2'=>'Alfa_Vitamin_C_1.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -79,7 +80,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'140',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Gold_C.png',
+            'Imagen'=>'Gold_C.png',
             
         ]);
         DB::Table('productos')->insert([
@@ -91,8 +92,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'100',
             'Stock'=>'100',
             'Tipo'=>'Suplemento',
-            'Imagen'=>'images\one\Alfa_Vitamin_D3.png',
-            'Imagen2'=>'images\one\Alfa_Vitamin_D3_1.png'
+            'Imagen'=>'Alfa_Vitamin_D3.png',
+            'Imagen2'=>'Alfa_Vitamin_D3_1.png'
         ]);
         // DB::Table('productos')->insert([
         //     'Calificacion'=>'5',
@@ -123,9 +124,9 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'170',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Now_Vitamin_D-3.png',
-            'Imagen2'=>'images\one\Now_Vitamin_D-3_1.png',
-            'Imagen3'=>'images\one\Now_Vitamin_D_3_2.png'
+            'Imagen'=>'Now_Vitamin_D-3.png',
+            'Imagen2'=>'Now_Vitamin_D-3_1.png',
+            'Imagen3'=>'Now_Vitamin_D_3_2.png'
         ]);
         // DB::Table('productos')->insert([
         //     'Calificacion'=>'5',
@@ -146,8 +147,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'110',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Profit_Colageno_Hidrolisado.png',
-            'Imagen2'=>'images\one\Profit_Colageno_Hidrolisado_1.png'
+            'Imagen'=>'Profit_Colageno_Hidrolisado.png',
+            'Imagen2'=>'Profit_Colageno_Hidrolisado_1.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -158,7 +159,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'120',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Sundown_B_Complex.png'        
+            'Imagen'=>'Sundown_B_Complex.png'        
         ]);
         // DB::Table('productos')->insert([
         //     'Calificacion'=>'5',
@@ -179,7 +180,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'110',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Alafa_Multivitamin_Gummibears.png'
+            'Imagen'=>'Alafa_Multivitamin_Gummibears.png',
+            'rango'=>'niño'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -190,7 +192,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'170',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Centrum_Silver_For_Men.png'
+            'Imagen'=>'Centrum_Silver_For_Men.png',
+            'rango'=>'hombre'
         ]);
         // DB::Table('productos')->insert([
         //     'Calificacion'=>'5',
@@ -231,7 +234,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'120',
             'Stock'=>'100',
             'Tipo'=>'farmaco',
-            'Imagen'=>'images\one\Aspirin_Basic_Care.png',
+            'Imagen'=>'Aspirin_Basic_Care.png',
           
         ]);
         // DB::Table('productos')->insert([
@@ -263,9 +266,9 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'210',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Now_Zinc.png',
-            'Imagen2'=>'images\one\Now_Zinc_1.png',
-            'Imagen3'=>'images\one\Now_Zinc_2.png'
+            'Imagen'=>'Now_Zinc.png',
+            'Imagen2'=>'Now_Zinc_1.png',
+            'Imagen3'=>'Now_Zinc_2.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -276,8 +279,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'210',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Gnc_Zinc.png',
-            'Imagen2'=>'images\one\Gnc_Zinc.png'
+            'Imagen'=>'Gnc_Zinc.png',
+            'Imagen2'=>'Gnc_Zinc.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -288,8 +291,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'120',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Alfa_Vitamin_E1000IU.png',
-            'Imagen2'=>'images\one\Alfa_Vitamin_E1000IU_1.png'
+            'Imagen'=>'Alfa_Vitamin_E1000IU.png',
+            'Imagen2'=>'Alfa_Vitamin_E1000IU_1.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -300,7 +303,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'125',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\NatureMade_CalciumMagnesiumZinc.png',
+            'Imagen'=>'NatureMade_CalciumMagnesiumZinc.png',
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -311,8 +314,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'125',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Century_Echinacea.png',
-            'Imagen2'=>'images\one\Century_Echinacea_1.png'
+            'Imagen'=>'Century_Echinacea.png',
+            'Imagen2'=>'Century_Echinacea_1.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -323,8 +326,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'180',
             'Stock'=>'100',
             'Tipo'=>'farmaco',
-            'Imagen'=>'images\one\Excedrin_Extra_Strength.png',
-            'Imagen2'=>'images\one\Excedrin_Extra_Strength_1.png'
+            'Imagen'=>'Excedrin_Extra_Strength.png',
+            'Imagen2'=>'Excedrin_Extra_Strength_1.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -335,8 +338,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'180',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Excedrin_Migraine.png',
-            'Imagen2'=>'images\one\Excedrin_Migraine_1.png'
+            'Imagen'=>'Excedrin_Migraine.png',
+            'Imagen2'=>'Excedrin_Migraine_1.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -347,7 +350,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'140',
             'Stock'=>'100',
             'Tipo'=>'farmaco',
-            'Imagen'=>'images\one\Advil.png'
+            'Imagen'=>'Advil.png'
         ]);
         // DB::Table('productos')->insert([
         //     'Calificacion'=>'5',
@@ -368,7 +371,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'140',
             'Stock'=>'100',
             'Tipo'=>'artefacto',
-            'Imagen'=>'images\one\Push.png'
+            'Imagen'=>'Push.png'
         ]);
         // DB::Table('productos')->insert([
         //     'Calificacion'=>'5',
@@ -389,7 +392,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'90',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\VITCOMPLEX-az.jpg',
+            'Imagen'=>'VITCOMPLEX-az.jpg',
             
         ]);
         DB::Table('productos')->insert([
@@ -401,8 +404,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'80',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Supravida_Imunno.png',
-            'Imagen2'=>'images\one\Supravida_Imunno_1.png'
+            'Imagen'=>'Supravida_Imunno.png',
+            'Imagen2'=>'Supravida_Imunno_1.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -413,8 +416,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'65',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Mucomel_Imuno_1.png',
-            'Imagen2'=>'images\one\Mucomel_Imuno.png'
+            'Imagen'=>'Mucomel_Imuno_1.png',
+            'Imagen2'=>'Mucomel_Imuno.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -425,7 +428,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'65',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Lavitan_Vitaminas.png'
+            'Imagen'=>'Lavitan_Vitaminas.png',
+            'rango'=>'niño'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -436,7 +440,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'110',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\BemNutrir_Vitamina_C.png'
+            'Imagen'=>'BemNutrir_Vitamina_C.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -447,7 +451,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'110',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\BemNutrir_Vitamina_D3.png'
+            'Imagen'=>'BemNutrir_Vitamina_D3.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -458,7 +462,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'25',
             'Stock'=>'100',
             'Tipo'=>'artefacto',
-            'Imagen'=>'images\one\Cenevit.png'
+            'Imagen'=>'Cenevit.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -469,8 +473,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'110',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\BemNutrir_Forcecaps.png',
-            'Imagen2'=>'images\one\BemNutrir_Forcecaps_1.png'
+            'Imagen'=>'BemNutrir_Forcecaps.png',
+            'Imagen2'=>'BemNutrir_Forcecaps_1.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -481,7 +485,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'65',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Melcoprol_D3_Gotas.png'
+            'Imagen'=>'Melcoprol_D3_Gotas.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -492,7 +496,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'80',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Melcoprol_Imuno_Prevent.png'
+            'Imagen'=>'Melcoprol_Imuno_Prevent.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -503,7 +507,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'60',
             'Stock'=>'100',
             'Tipo'=>'farmaco',
-            'Imagen'=>'images\one\Oleo_De_Primula.png'
+            'Imagen'=>'Oleo_De_Primula.png',
+            'rango'=>'mujer'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -514,8 +519,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'110',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Melcoprol_D3.png',
-            'Imagen2'=>'images\one\Melcoprol_D3_1.png'
+            'Imagen'=>'Melcoprol_D3.png',
+            'Imagen2'=>'Melcoprol_D3_1.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -526,7 +531,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'100',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Melcoprol_Zinco.png'
+            'Imagen'=>'Melcoprol_Zinco.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -537,7 +542,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'70',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Biovotale_Plus_Zn.png'
+            'Imagen'=>'Biovotale_Plus_Zn.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -548,7 +553,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'110',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\NutryMaxx_Mega3.6.9.png'
+            'Imagen'=>'NutryMaxx_Mega3.6.9.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -559,7 +564,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'110',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Melcoprol_Omega_UltraHD.png'
+            'Imagen'=>'Melcoprol_Omega_UltraHD.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -570,8 +575,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'100',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Melcoprol_Omega-3.png',
-            'Imagen2'=>'images\one\Melcoprol_Omega-3_1.png'
+            'Imagen'=>'Melcoprol_Omega-3.png',
+            'Imagen2'=>'Melcoprol_Omega-3_1.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',
@@ -582,7 +587,7 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'95',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'images\one\Melcoprol_3_Omegas.png'
+            'Imagen'=>'Melcoprol_3_Omegas.png'
         ]);
     }
 }
