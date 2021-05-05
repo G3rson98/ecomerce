@@ -13,46 +13,58 @@ class ProductoController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function indexbuscar(Request $request)
+    {
+        // return $request;
+        if ($request) {
+            $busqueda = trim($request->get('search'));
+            $productoA = producto::where('Nombre', 'CHARINDEX', '%' . $busqueda . '%')
+                ->orderBy('id', 'asc')
+                ->get();
+            return view('marco_americano', compact('productoA'));
+            // return view('layout.carrito', compact('producto'));
+        }
+        return "no entro";
+        // $producto = producto::all();
+
+    }
     public function index()
     {
-        $producto =producto::all();
-   
-    return view('marco_home', compact('producto'));
+        $producto = producto::all();
+        return view('marco_home', compact('producto'));
     }
-
-
     public function indexAMERICANO()
     {
-        $productoA =producto::where('Nacionalidad', '=','EEUU')->get();
-       // return $productoA;
+        $productoA = producto::where('Nacionalidad', '=', 'EEUU')->get();
+        // return $productoA;
         return view('marco_americano', compact('productoA'));
     }
 
 
     public function indexBRASILERO()
     {
-        $productoB=producto::where('Nacionalidad', '=','Brasil')->get();
+        $productoB = producto::where('Nacionalidad', '=', 'Brasil')->get();
         return view('marco_brasilero', compact('productoB'));
     }
 
 
     public function indexN()
     {
-        $productoN=producto::where('Categoria_Edad','=','niño')->get();
+        $productoN = producto::where('rango', '=', 'niño')->get();
         return view('marco_niño', compact('productoN'));
     }
 
 
     public function indexH()
     {
-        $productoH=producto::where('Categoria_Edad','=','adultos')->get();
+        $productoH = producto::where('rango', '=', 'hombre')->get();
         return view('marco_hombre', compact('productoH'));
     }
 
 
     public function indexM()
     {
-        $productoM=producto::where('Categoria_Edad','=','Mujer')->get();
+        $productoM = producto::where('rango', '=', 'mujer')->get();
         return view('producto_Mujer', compact('productoM'));
     }
     /**
@@ -84,7 +96,7 @@ class ProductoController extends Controller
      */
     public function show($id)
     {
-        $productoA =producto::where('id', '=',$id)->first();
+        $productoA = producto::where('id', '=', $id)->first();
         return $productoA;
     }
 

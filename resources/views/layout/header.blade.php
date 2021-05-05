@@ -12,10 +12,8 @@
 									<li><a href="{{Route('H')}}">Productos Hombres</a></li>
 									<li><a href="{{Route('M')}}">Productos Mujer</a></li>
 									<li><a href="{{Route('N')}}">Productos Niño</a></li>
-
 								</ul>
 							</div>
-
 						</div>
 						<div class="col-lg-9 col-12">
 							<div class="menu-area">
