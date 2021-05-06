@@ -14,17 +14,18 @@ class ProductoController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function indexbuscar(Request $request)
-    {
+    {      
+       
         // return $request;
         if ($request) {
             $busqueda = trim($request->get('search'));
-            $productoA = producto::where('Nombre', 'CHARINDEX', '%' . $busqueda . '%')
+            $productoA = producto::where('Nombre', 'LIKE', '%' . $busqueda . '%')
                 ->orderBy('id', 'asc')
-                ->get();
+                ->get();            
             return view('marco_americano', compact('productoA'));
             // return view('layout.carrito', compact('producto'));
         }
-        return "no entro";
+        // return  '<script language="javascript">alert("Error de autentificacion");window.location.href="index.html"</script>';
         // $producto = producto::all();
 
     }

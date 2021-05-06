@@ -150,17 +150,17 @@ class DatabaseSeeder extends Seeder
             'Imagen'=>'Profit_Colageno_Hidrolisado.png',
             'Imagen2'=>'Profit_Colageno_Hidrolisado_1.png'
         ]);
-        DB::Table('productos')->insert([
-            'Calificacion'=>'5',
-            'Categoria_Edad'=>'adultos',
-            'Descripcion'=>'Tomar una tableta diaria preferiblemente con una comida. El complejo vitamínico de la marca estadounidense Sundown, es un compuesto de la más alta pureza y calidad de varias vitaminas B que trabajan juntas para ayudar a su sistema nervioso y al bienestar general. Cada vitamina del Complejo B ayuda a convertir los alimentos en energía, para que cada día sea un gran día. Una tableta díaria es todo lo que se necesita para obtener los beneficios de tiamina, riboflavina, niacina, B6, ácido fólico y B12. Ideal para estudiantes. La marca sundown es apta para veganos y vegetarianos.',
-            'Nacionalidad'=>'EEUU',
-            'Nombre'=>'B Complex',
-            'Precio'=>'120',
-            'Stock'=>'100',
-            'Tipo'=>'suplemento',
-            'Imagen'=>'Sundown_B_Complex.png'        
-        ]);
+        // DB::Table('productos')->insert([
+        //     'Calificacion'=>'5',
+        //     'Categoria_Edad'=>'adultos',
+        //     'Descripcion'=>'Tomar una tableta diaria preferiblemente con una comida. El complejo vitamínico de la marca estadounidense Sundown, es un compuesto de la más alta pureza y calidad de varias vitaminas B que trabajan juntas para ayudar a su sistema nervioso y al bienestar general. Cada vitamina del Complejo B ayuda a convertir los alimentos en energía, para que cada día sea un gran día. Una tableta díaria es todo lo que se necesita para obtener los beneficios de tiamina, riboflavina, niacina, B6, ácido fólico y B12. Ideal para estudiantes. La marca sundown es apta para veganos y vegetarianos.',
+        //     'Nacionalidad'=>'EEUU',
+        //     'Nombre'=>'B Complex',
+        //     'Precio'=>'120',
+        //     'Stock'=>'100',
+        //     'Tipo'=>'suplemento',
+        //     'Imagen'=>'Sundown_B_Complex.png'        
+        // ]);
         // DB::Table('productos')->insert([
         //     'Calificacion'=>'5',
         //     'Categoria_Edad'=>'2 +',
@@ -507,7 +507,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'60',
             'Stock'=>'100',
             'Tipo'=>'farmaco',
-            'Imagen'=>'Oleo_De_Primula.png',
+            'Imagen'=>'primulaN.jpg',
+            'Imagen2'=>'primulaN2.jpg',
             'rango'=>'mujer'
         ]);
         DB::Table('productos')->insert([
