@@ -14,7 +14,7 @@
 							<div class="search-top">
 								<form method="POST" rol="form" action="{{Route('buscar')}}" class="search-form">
 								@csrf
-									<input   type="text" placeholder="BUSCAR VITAMINA..." name="search">
+									<input  action="{{Route('buscar')}}" type="text" placeholder="BUSCAR VITAMINA..." name="search">
 									<button value="search" type="submit"><i class="ti-search"></i></button>
 								</form>
 							</div>
@@ -29,7 +29,7 @@
 								<form method="POST" rol="form"  action="{{Route('buscar')}}" >
 								@csrf
 									<input action="{{Route('buscar')}}" name="search" placeholder="Busca Tu Producto Aquí....." type="search">
-									<button class="btnn"><i class="ti-search"></i></button>
+									<button class="btn"><i class="ti-search"></i></button>
 								</form>
 							</div>
 						</div>
@@ -81,3 +81,4 @@
 				</div>
 			</div>
 		</div>
+

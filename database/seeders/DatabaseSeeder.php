@@ -416,8 +416,8 @@ class DatabaseSeeder extends Seeder
             'Precio'=>'65',
             'Stock'=>'100',
             'Tipo'=>'suplemento',
-            'Imagen'=>'Mucomel_Imuno_1.png',
-            'Imagen2'=>'Mucomel_Imuno.png'
+            'Imagen'=>'Mucomel_Imuno.png',
+            'Imagen2'=>'Mucomel_Imuno_1.png'
         ]);
         DB::Table('productos')->insert([
             'Calificacion'=>'5',

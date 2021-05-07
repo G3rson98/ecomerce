@@ -15,12 +15,11 @@
 					<div class="single-product">
 						<div class="product-img">
 							<a>
-								<img class="default-img" src="images\one\Now_Zinc.png">
+								<img class="default-img" src="images\one\Alafa_Multivitamin_Gummibears.png">
 							</a>
 							<div class="button-head">
 								<div class="product-action">
 									<a data-toggle="modal" data-target="#exampleModal" title="Quick View" href="#"><i class=" ti-eye"></i><span>CARACTERISTICAS</span></a>
-
 								</div>
 								<div class="product-action-2">
 									<a title="Add to cart" href="#">COMPRAR</a>
@@ -28,10 +27,10 @@
 							</div>
 						</div>
 						<div class="product-content">
-							<h3><a>Now Zinc</a></h3>
+							<h3><a>Multivitamin Gummy Bears</a></h3>
 							<div class="product-price">
 								<span class="old"></span>
-								<span>BS 200</span>
+								<span>BS 100</span>
 							</div>
 						</div>
 					</div>
